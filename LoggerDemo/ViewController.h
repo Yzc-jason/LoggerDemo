@@ -6,9 +6,9 @@
 //  Copyright © 2019 yzc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ZCBaseViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : ZCBaseViewController
 
 
 @end

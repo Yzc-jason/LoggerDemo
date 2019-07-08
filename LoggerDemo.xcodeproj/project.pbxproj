@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7283357FF0D3EED1AE7067 /* Pods_LoggerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0889B78B8581C0FEA3589E0C /* Pods_LoggerDemo.framework */; };
 		D727059622D38BEF00E89675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D727059522D38BEF00E89675 /* AppDelegate.m */; };
 		D727059922D38BEF00E89675 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D727059822D38BEF00E89675 /* ViewController.m */; };
 		D727059C22D38BEF00E89675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727059A22D38BEF00E89675 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		D72705A422D38BF000E89675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D72705A322D38BF000E89675 /* main.m */; };
 		D72705AE22D38BF000E89675 /* LoggerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72705AD22D38BF000E89675 /* LoggerDemoTests.m */; };
 		D72705B922D38BF000E89675 /* LoggerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72705B822D38BF000E89675 /* LoggerDemoUITests.m */; };
+		D72705D022D398B800E89675 /* UIViewController+FLEX.m in Sources */ = {isa = PBXBuildFile; fileRef = D72705CF22D398B800E89675 /* UIViewController+FLEX.m */; };
+		D72705D722D398C500E89675 /* ZCLogFileFormatterDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = D72705D522D398C400E89675 /* ZCLogFileFormatterDefault.m */; };
+		D72705D822D398C500E89675 /* ZCLoggerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D72705D622D398C400E89675 /* ZCLoggerManager.m */; };
+		D72705DB22D3994900E89675 /* NSObject+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = D72705DA22D3994900E89675 /* NSObject+NilSafe.m */; };
+		D72705DF22D39A9600E89675 /* ZCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72705DE22D39A9600E89675 /* ZCBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0889B78B8581C0FEA3589E0C /* Pods_LoggerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoggerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CCA085EABB43AC25DEBCB3 /* Pods-LoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoggerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoggerDemo/Pods-LoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AEA84EF4C4A9F14AD69342C1 /* Pods-LoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoggerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoggerDemo/Pods-LoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D727059122D38BEF00E89675 /* LoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D727059422D38BEF00E89675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D727059522D38BEF00E89675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		D72705B422D38BF000E89675 /* LoggerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoggerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72705B822D38BF000E89675 /* LoggerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoggerDemoUITests.m; sourceTree = "<group>"; };
 		D72705BA22D38BF000E89675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72705CE22D398B800E89675 /* UIViewController+FLEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FLEX.h"; sourceTree = "<group>"; };
+		D72705CF22D398B800E89675 /* UIViewController+FLEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FLEX.m"; sourceTree = "<group>"; };
+		D72705D222D398C400E89675 /* ZCLogFileFormatterDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLogFileFormatterDefault.h; sourceTree = "<group>"; };
+		D72705D322D398C400E89675 /* ZCLoggerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLoggerManager.h; sourceTree = "<group>"; };
+		D72705D422D398C400E89675 /* ZCLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLogMacros.h; sourceTree = "<group>"; };
+		D72705D522D398C400E89675 /* ZCLogFileFormatterDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLogFileFormatterDefault.m; sourceTree = "<group>"; };
+		D72705D622D398C400E89675 /* ZCLoggerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLoggerManager.m; sourceTree = "<group>"; };
+		D72705D922D3994900E89675 /* NSObject+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NilSafe.h"; sourceTree = "<group>"; };
+		D72705DA22D3994900E89675 /* NSObject+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NilSafe.m"; sourceTree = "<group>"; };
+		D72705DD22D39A9600E89675 /* ZCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCBaseViewController.h; sourceTree = "<group>"; };
+		D72705DE22D39A9600E89675 /* ZCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7283357FF0D3EED1AE7067 /* Pods_LoggerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75096AEAEF070BBA1699725B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0889B78B8581C0FEA3589E0C /* Pods_LoggerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91E1E23473A2529336F990C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEA84EF4C4A9F14AD69342C1 /* Pods-LoggerDemo.debug.xcconfig */,
+				46CCA085EABB43AC25DEBCB3 /* Pods-LoggerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D727058822D38BEF00E89675 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				D72705AC22D38BF000E89675 /* LoggerDemoTests */,
 				D72705B722D38BF000E89675 /* LoggerDemoUITests */,
 				D727059222D38BEF00E89675 /* Products */,
+				91E1E23473A2529336F990C6 /* Pods */,
+				75096AEAEF070BBA1699725B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +141,7 @@
 		D727059322D38BEF00E89675 /* LoggerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D72705D122D398C400E89675 /* Logger */,
 				D727059422D38BEF00E89675 /* AppDelegate.h */,
 				D727059522D38BEF00E89675 /* AppDelegate.m */,
 				D727059722D38BEF00E89675 /* ViewController.h */,
@@ -132,6 +173,32 @@
 			path = LoggerDemoUITests;
 			sourceTree = "<group>";
 		};
+		D72705D122D398C400E89675 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				D72705DC22D3996100E89675 /* Category */,
+				D72705DD22D39A9600E89675 /* ZCBaseViewController.h */,
+				D72705DE22D39A9600E89675 /* ZCBaseViewController.m */,
+				D72705D222D398C400E89675 /* ZCLogFileFormatterDefault.h */,
+				D72705D522D398C400E89675 /* ZCLogFileFormatterDefault.m */,
+				D72705D322D398C400E89675 /* ZCLoggerManager.h */,
+				D72705D622D398C400E89675 /* ZCLoggerManager.m */,
+				D72705D422D398C400E89675 /* ZCLogMacros.h */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		D72705DC22D3996100E89675 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D72705D922D3994900E89675 /* NSObject+NilSafe.h */,
+				D72705DA22D3994900E89675 /* NSObject+NilSafe.m */,
+				D72705CE22D398B800E89675 /* UIViewController+FLEX.h */,
+				D72705CF22D398B800E89675 /* UIViewController+FLEX.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D72705BD22D38BF000E89675 /* Build configuration list for PBXNativeTarget "LoggerDemo" */;
 			buildPhases = (
+				1DBCA3EC1D87A8F17B7478BD /* [CP] Check Pods Manifest.lock */,
 				D727058D22D38BEF00E89675 /* Sources */,
 				D727058E22D38BEF00E89675 /* Frameworks */,
 				D727058F22D38BEF00E89675 /* Resources */,
+				8B9B1287DF35B250C829C383 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,13 +326,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DBCA3EC1D87A8F17B7478BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoggerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9B1287DF35B250C829C383 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoggerDemo/Pods-LoggerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
+				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
+				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/ZCFPS/ZCFPS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZCFPS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoggerDemo/Pods-LoggerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D727058D22D38BEF00E89675 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72705DF22D39A9600E89675 /* ZCBaseViewController.m in Sources */,
+				D72705D722D398C500E89675 /* ZCLogFileFormatterDefault.m in Sources */,
 				D727059922D38BEF00E89675 /* ViewController.m in Sources */,
+				D72705D022D398B800E89675 /* UIViewController+FLEX.m in Sources */,
 				D72705A422D38BF000E89675 /* main.m in Sources */,
+				D72705DB22D3994900E89675 /* NSObject+NilSafe.m in Sources */,
+				D72705D822D398C500E89675 /* ZCLoggerManager.m in Sources */,
 				D727059622D38BEF00E89675 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +564,7 @@
 		};
 		D72705BE22D38BF000E89675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA84EF4C4A9F14AD69342C1 /* Pods-LoggerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +582,7 @@
 		};
 		D72705BF22D38BF000E89675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CCA085EABB43AC25DEBCB3 /* Pods-LoggerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
